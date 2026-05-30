@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #68ff60, #ead9e4);
+}
+.contenedor{
+    padding: 20px;
+}
+.corazon{
+    font-size: 80px;
+}
+@keyframes latido{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.oculto{
+    display: none;
+    margin-top: 20px;
+}
